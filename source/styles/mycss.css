@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+
+
+body {
+    font-family: Noto Sans, serif;
+    background: linear-gradient(90deg, #EAE1A9 0%, #A2691D 100%);
+}
+
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.card {
+    box-shadow: 5px 5px 10px 5px #9E752F;
+}
+/* .card img {
+    height: 225px;
+} */
+
+.sidebar {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(270deg, #e4a74d 0%, #b37f3b 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #ffffff 0%, #cab59a 100%);
+}
+
+.card a {
+    text-decoration: none ;
+    color: #000000;
+}
+
+.slide_text {
+    color: #000000;
+    margin-block: -275px;
+    margin-inline: 430px;
+    font-size: 25px;
+}
+
+footer {
+    border-top-style: solid;
+    border-top-width: 0.5px;
+}
+.footer-text {
+    color: #0000009d;
+    margin: auto auto;
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-secondary {
+    
+    color: #4d4b4b;
+}
+
+.anim-call {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+@media (meax-width:755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
